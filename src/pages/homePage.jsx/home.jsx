@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Trending Today</h1>
+      <h1>Cars</h1>
       {homeList && <MovieList films={homeList} />}
     </div>
   );
