@@ -17,7 +17,6 @@ export const SearchBlock = ({
   setValueSelect,
   filtredCars,
   setFiltredCars,
-  filtredMassive,
 }) => {
   const [open, setOpen] = useState(false);
   const [openPrice, setOpenPrice] = useState(false);

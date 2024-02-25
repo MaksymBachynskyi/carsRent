@@ -14,7 +14,9 @@ export const CarsList = () => {
 
   const filtredCars = () => {
     return allCars.filter(i => {
-      return i.make === valueSelect;
+      const normalize = i.make.toLowerCase();
+      const normalizeValue = valueSelect.toLowerCase();
+      return normalize === normalizeValue;
     });
   };
 
