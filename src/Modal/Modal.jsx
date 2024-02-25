@@ -62,7 +62,7 @@ export const ModalCart = ({
           position: 'relative',
           boxSizing: 'border-box',
           width: '541px',
-          height: '452px',
+          height: '752px',
           borderRadius: '24px',
           padding: '40px',
           backgroundColor: 'rgba(255, 255, 255, 1)',

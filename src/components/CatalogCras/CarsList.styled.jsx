@@ -5,6 +5,7 @@ export const List = styled.ul`
   flex-wrap: wrap;
   column-gap: 29px;
   row-gap: 50px;
+  margin-left:110px;l
 `;
 
 export const LoadButton = styled.button`
