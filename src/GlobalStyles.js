@@ -20,7 +20,9 @@ export const GlobalStyle = createGlobalStyle`body {
   box-sizing: inherit;
 }
 
-
+li{
+  list-style:none;
+}
 
 img {
   display: block;

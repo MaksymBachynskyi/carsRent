@@ -10,7 +10,10 @@ export default function Layout() {
             <StyledNavLink to="/">Home</StyledNavLink>
           </li>
           <li>
-            <StyledNavLink to="/movies">Movie</StyledNavLink>
+            <StyledNavLink to="/catalog">Catalog</StyledNavLink>
+          </li>
+          <li>
+            <StyledNavLink to="/favorites">Favorites</StyledNavLink>
           </li>
         </StyledList>
       </header>

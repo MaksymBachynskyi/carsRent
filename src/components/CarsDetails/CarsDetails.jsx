@@ -1,0 +1,3 @@
+const CarDetail = () => {
+  <div></div>;
+};
