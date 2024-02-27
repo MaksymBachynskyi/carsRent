@@ -1,9 +1,13 @@
 @import-normalize; /* bring in normalize.css styles */
+@font-face {
+  font-family: 'KodeMone';
+  src: url('/src/components/Fonts/KodeMono-SemiBold.ttf');
+  font-weight: 400;
+}
 
 body {
   margin: 0;
-  font-family: 'Manrope', sans-serif;
-
+  font-family: 'KodeMone';
   font-size: 14px;
 
   -webkit-font-smoothing: antialiased;

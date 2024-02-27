@@ -5,9 +5,10 @@ import { CarItem } from 'components/CarItem/CarItem';
 
 export const FavoriteCars = () => {
   const favoriteList = useSelector(selectFavorite);
+
   const allCars = useSelector(selectCars);
   const favoriteCars = allCars.filter(item => favoriteList.includes(item.id));
-
+  console.log(favoriteList, favoriteCars);
   return (
     <div>
       {!favoriteCars.length ? (
