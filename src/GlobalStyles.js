@@ -25,8 +25,9 @@ li{
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 300px;
+  object-fit:cover;
 }
 ul{
     list-style:none;
